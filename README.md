@@ -1,6 +1,6 @@
 # dotfiles
 
-My personal environment. 
+My personal environment.
 
 ## Notes
 
