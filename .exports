@@ -27,9 +27,9 @@ export GOMAXPROCS=1;
 export SCALA_HOME="$SOURCEPATH/scala";
 
 # Set virualenv vars
-export WORKON_HOME=$HOME/.virtualenvs;
-export PROJECT_HOME=$HOME/Devel;
-source `which virtualenvwrapper.sh`;
+# export WORKON_HOME=$HOME/.virtualenvs;
+# export PROJECT_HOME=$HOME/Devel;
+# source `which virtualenvwrapper.sh`;
 
 # Set SSH key name env vars
 export PERSONALKEYNAME="id_rsa";

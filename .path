@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 # Add `~/bin` to the `$PATH`
@@ -25,4 +26,4 @@ export PATH="/usr/local/sbin::$PATH";
 if [ -f "$HOME/google-cloud-sdk/path.bash.inc" ]; then source "$HOME/google-cloud-sdk/path.bash.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f "$HOME/google-cloud-sdk/completion.bash.inc" ]; then source "$HOME/google-cloud-sdk/completion.bash.inc";
+if [ -f "$HOME/google-cloud-sdk/completion.bash.inc" ]; then source "$HOME/google-cloud-sdk/completion.bash.inc"; fi
