@@ -12,6 +12,9 @@ export PODIUMPATH="$SCPATH/podium-local";
 # Add personal path
 export PERSONALPATH="$SOURCEPATH/spurcell";
 
+# Add ansible vault
+export POPS_ANSIBLE_VAULT_ID="~/ansible-pw.yml";
+
 # Add GOPATH
 # export GOPATH="$SOURCEPATH/go";
 export GOPATH="$PODIUMPATH/applications/go"; # NOTE: For podium-local
