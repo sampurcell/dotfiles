@@ -209,3 +209,13 @@ function decrypt_keys() {
 function loop5() {
   while true; do $@ && echo ""; sleep 5; done;
 }
+
+# Reset users service db
+function resetusers() {
+    cd "$PODIUMPATH/applications/users-service";
+    docker-compose -f $PODIUMPATH/configs/global-db-compose.yml down;
+    docker-compose -f $PODIUMPATH/configs/global-db-compose.yml up -d;
+    sleep 15;
+    $PODIUMPATH/bin/utils/local-setup-postgres-db -c podium-global-postgres  -n podium_users -s src/database/schema.sql -f;
+    dc run --rm podium-users-service npm run migrate;
+}
