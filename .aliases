@@ -21,6 +21,9 @@ alias dps='docker ps'
 alias dexec='docker exec -it'
 alias dockergc='docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v /etc:/etc:ro spotify/docker-gc'
 
+# User Service
+alias usrb='docker exec -it podium-users-service bash'
+
 # Minikube aliases
 alias mk='minikube'
 alias mkde='eval $(minikube docker-env)'
