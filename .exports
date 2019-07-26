@@ -4,7 +4,7 @@
 export SOURCEPATH="$HOME";
 
 # Add SoulCycle path
-export SCPATH="$SOURCEPATH/Soul";
+export SCPATH="$SOURCEPATH/soul";
 
 # Add SoulCycle Podium path
 export PODIUMPATH="$SCPATH/podium-local";
