@@ -29,6 +29,8 @@ export GOMAXPROCS=1;
 # Add SCALA_HOME
 export SCALA_HOME="$SOURCEPATH/scala";
 
+export SFPPATH="$SOURCEPATH/sfp"
+
 # Set virualenv vars
 # export WORKON_HOME=$HOME/.virtualenvs;
 # export PROJECT_HOME=$HOME/Devel;
